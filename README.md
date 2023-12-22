@@ -54,11 +54,16 @@ Make sure you have the following tools installed:
 
 ## Usage
 
-1. Start the server: `node server.js`
-2. Open your web browser and go to `http://localhost:8080`
-3. Enter your name, choose a language and difficulty level, then click "Start Quiz."
-4. Answer the quiz questions and submit your answers.
-5. View your result and score.
-6. View your Leaderboard.
+1. Create Database `learning_game` in MySQL.
+    MySQL query- `CREATE DATABASE learning_game`
+2. Create table `quiz_results` in the database.
+    MySQL query- `CREATE TABLE quiz_results(username VARCHAR(100), userScore INT)`
+3. Add your MySQL password in `db_config.js` file.
+4. Start the server: `node server.js`
+5. Open your web browser and go to `http://localhost:8080`
+6. Enter your name, choose a language and difficulty level, then click "Start Quiz."
+7. Answer the quiz questions and submit your answers.
+8. View your result and score.
+9. View your Leaderboard.
 
 
