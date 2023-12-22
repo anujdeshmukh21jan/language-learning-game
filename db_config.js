@@ -2,7 +2,7 @@
 const dbConfig = {
     host: 'localhost',
     user: 'root',
-    password: 'Anuj@2002',
+    password: '****',
     database: 'learning_game',
 };
 
