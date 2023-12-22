@@ -43,7 +43,7 @@ Make sure you have the following tools installed:
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/anujdeshmukh21jan/language-learning-game.git`
+1. Clone the repository: `[gh repo clone anujdeshmukh21jan/language-learning-game](https://github.com/anujdeshmukh21jan/language-learning-game.git)`
 2. Install Node.js from the (https://nodejs.org/en) website.
 3. Install Mysql from the official website.
 4. Navigate to the project directory: `cd language-learning-game`
